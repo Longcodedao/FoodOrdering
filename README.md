@@ -1,2 +1,0 @@
-# FoodOrdering
-Food Ordering project

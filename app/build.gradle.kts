@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.midterm.myapplication"
+    namespace = "com.example.foodordering"
     compileSdk = 34
     buildToolsVersion = "30.0.3"
 
     defaultConfig {
-        applicationId = "com.midterm.myapplication"
+        applicationId = "com.example.foodordering"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -47,7 +47,7 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
 
-    implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
+    implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
     implementation("com.github.bumptech.glide:glide:4.12.0")

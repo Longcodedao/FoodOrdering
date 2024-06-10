@@ -177,16 +177,17 @@
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="You aren't a user ?"
+                    android:text="You aren't a user?"
                     android:textSize="16sp"
-                    android:textColor="@color/blue_gray"/>
+                    android:textColor="@color/blue_gray"
+                    android:layout_marginEnd="8dp"/>
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/signUpLink"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sign up"
-                    android:textColor="@color/red"/>
+                    android:textColor="@color/red" />
             </LinearLayout>
 
         </LinearLayout>
